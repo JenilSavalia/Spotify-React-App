@@ -1,8 +1,8 @@
-import './App.css';
-import image from './assets/image11.png'
-import image1 from './assets/bx_bxs-heart.png'
-import image2 from './assets/Music Player Options.png'
-import image3 from './assets/Right options.png'
+import '../../App.css';
+import image from '../../assets/image11.png'
+import image1 from '../../assets/bx_bxs-heart.png'
+import image2 from '../../assets/Music Player Options.png'
+import image3 from '../../assets/Right options.png'
 
 
 

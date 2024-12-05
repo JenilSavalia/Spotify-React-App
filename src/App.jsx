@@ -5,7 +5,7 @@ import liked from './assets/Liked.png'
 import arrow from './assets/top arrow navigation.png'
 import user from './assets/User.png'
 import image from './assets/image9.png'
-
+import Main_Menu from './Components/Main_Menu/Main_Menu'
 
 function App() {
 
@@ -92,105 +92,87 @@ function App() {
             <img src={user} />
           </div>
 
+
           <h1 className="heading">Good Morning</h1>
-
           <div className="playlist_menu">
-
-            <div className="playlist_card">
-              <img src={liked} />
-              <span><b>Liked Songs</b></span>
-            </div>
-            <div className="playlist_card">
-              <img src={liked} />
-              <span><b>Liked Songs</b></span>
-            </div>
-            <div className="playlist_card">
-              <img src={liked} />
-              <span><b>Liked Songs</b></span>
-            </div>
-            <div className="playlist_card">
-              <img src={liked} />
-              <span><b>Liked Songs</b></span>
-            </div>
-            <div className="playlist_card">
-              <img src={liked} />
-              <span><b>Liked Songs</b></span>
-            </div>
-
-          </div>
+            <Main_Menu />
+            <div />
 
 
-          <h1 className="heading">Shows you might like</h1>
 
-          <div className="show_menu">
 
-            <div className="show_card">
 
-              <img src={image} />
 
-              <div className="text">
-                <h3>Weekly Motivation</h3>
-                <div>Jenil Savalia</div>
+            <h1 className="heading">Shows you might like</h1>
+            <div className="show_menu">
+
+              <div className="show_card">
+
+                <img src={image} />
+
+                <div className="text">
+                  <h3>Weekly Motivation</h3>
+                  <div>Jenil Savalia</div>
+                </div>
+
+              </div>
+              <div className="show_card">
+
+                <img src={image} />
+
+                <div className="text">
+                  <h3>Weekly Motivation</h3>
+                  <div>Jenil Savalia</div>
+                </div>
+
+              </div>
+              <div className="show_card">
+
+                <img src={image} />
+
+                <div className="text">
+                  <h3>Weekly Motivation</h3>
+                  <div>Jenil Savalia</div>
+                </div>
+
+              </div>
+              <div className="show_card">
+
+                <img src={image} />
+
+                <div className="text">
+                  <h3>Weekly Motivation</h3>
+                  <div>Jenil Savalia</div>
+                </div>
+
+              </div>
+              <div className="show_card">
+
+                <img src={image} />
+
+                <div className="text">
+                  <h3>Weekly Motivation</h3>
+                  <div>Jenil Savalia</div>
+                </div>
+
+              </div>
+              <div className="show_card">
+
+                <img src={image} />
+
+                <div className="text">
+                  <h3>Weekly Motivation</h3>
+                  <div>Jenil Savalia</div>
+                </div>
+
               </div>
 
-            </div>
-            <div className="show_card">
-
-              <img src={image} />
-
-              <div className="text">
-                <h3>Weekly Motivation</h3>
-                <div>Jenil Savalia</div>
-              </div>
-
-            </div>
-            <div className="show_card">
-
-              <img src={image} />
-
-              <div className="text">
-                <h3>Weekly Motivation</h3>
-                <div>Jenil Savalia</div>
-              </div>
-
-            </div>
-            <div className="show_card">
-
-              <img src={image} />
-
-              <div className="text">
-                <h3>Weekly Motivation</h3>
-                <div>Jenil Savalia</div>
-              </div>
-
-            </div>
-            <div className="show_card">
-
-              <img src={image} />
-
-              <div className="text">
-                <h3>Weekly Motivation</h3>
-                <div>Jenil Savalia</div>
-              </div>
-
-            </div>
-            <div className="show_card">
-
-              <img src={image} />
-
-              <div className="text">
-                <h3>Weekly Motivation</h3>
-                <div>Jenil Savalia</div>
-              </div>
 
             </div>
 
 
           </div>
-
-
         </div>
-
       </section>
     </>
   )
